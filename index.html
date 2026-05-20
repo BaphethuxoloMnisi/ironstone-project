@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ironstone Group (Pty) Ltd — Multi-Sector Infrastructure & Services</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Ironstone Group (Pty) Ltd is a South African multi-disciplinary service provider specialising in construction, infrastructure, facilities management, supply of goods, and industrial services for government and private sector.">
+  <meta name="keywords" content="Ironstone Group, South Africa construction, infrastructure services, facilities management, supply chain, CSD registered, BBBEE, South Africa contractor, civil engineering, building maintenance">
+  <meta name="author" content="Ironstone Group (Pty) Ltd">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.ironstonegroup.co.za/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ironstone Group (Pty) Ltd — Delivering Excellence Across South Africa">
+  <meta property="og:description" content="Multi-disciplinary construction, supply, maintenance & industrial services provider. CSD registered, SARS compliant, serving government and private sector.">
+  <meta property="og:url" content="https://www.ironstonegroup.co.za/">
+  <meta property="og:locale" content="en_ZA">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ironstone Group (Pty) Ltd">
+  <meta name="twitter:description" content="Reliable construction, supply & facilities management across South Africa.">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Ironstone Group (Pty) Ltd",
+    "description": "South African multi-disciplinary service provider in construction, supply, maintenance and industrial services.",
+    "url": "https://www.ironstonegroup.co.za",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ZA"
+    },
+    "areaServed": "ZA",
+    "serviceType": ["Construction", "Facilities Management", "Supply Chain", "Industrial Services"]
+  }
+  </script>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+
+<!-- ══════════════════════════════════════════
+     NAVIGATION
+══════════════════════════════════════════ -->
+<header class="nav" id="mainNav">
+  <div class="nav-inner">
+
+    <div class="nav-logo" onclick="navigateTo('home')">
+      <div class="logo-word">IRON<span>STONE</span></div>
+      <div class="logo-tagline">Group (Pty) Ltd</div>
+    </div>
+
+    <!-- Desktop Nav -->
+    <nav class="desktop-nav">
+      <ul class="nav-links">
+
+        <li class="nav-item" id="nav-home">
+          <a onclick="navigateTo('home')">Home</a>
+        </li>
+
+        <li class="nav-item" id="nav-about">
+          <span>About <span class="caret">▾</span></span>
+          <ul class="dropdown">
+            <li><a onclick="navigateTo('about')">Company Profile</a></li>
+            <li><a onclick="navigateTo('about', 'mission')">Our Mission & Vision</a></li>
+            <li><a onclick="navigateTo('about', 'values')">Our Values</a></li>
+            <li><a onclick="navigateTo('about', 'compliance')">Compliance & Accreditation</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item" id="nav-services">
+          <span>Services <span class="caret">▾</span></span>
+          <div class="mega-menu">
+            <div class="mega-col">
+              <h5>Construction</h5>
+              <ul>
+                <li><a onclick="navigateTo('services', 'construction')">Building Construction</a></li>
+                <li><a onclick="navigateTo('services', 'construction')">Civil & Infrastructure</a></li>
+                <li><a onclick="navigateTo('services', 'construction')">Roadworks & Landscaping</a></li>
+                <li><a onclick="navigateTo('services', 'construction')">Structural Works</a></li>
+              </ul>
+            </div>
+            <div class="mega-col">
+              <h5>Supply of Goods</h5>
+              <ul>
+                <li><a onclick="navigateTo('services', 'supply')">Construction Materials</a></li>
+                <li><a onclick="navigateTo('services', 'supply')">Tools & Equipment</a></li>
+                <li><a onclick="navigateTo('services', 'supply')">PPE & Safety Gear</a></li>
+                <li><a onclick="navigateTo('services', 'supply')">Office Supplies & IT</a></li>
+              </ul>
+            </div>
+            <div class="mega-col">
+              <h5>Facilities Mgmt</h5>
+              <ul>
+                <li><a onclick="navigateTo('services', 'facilities')">Building Maintenance</a></li>
+                <li><a onclick="navigateTo('services', 'facilities')">Cleaning Services</a></li>
+                <li><a onclick="navigateTo('services', 'facilities')">Waste Management</a></li>
+                <li><a onclick="navigateTo('services', 'facilities')">Decontamination</a></li>
+              </ul>
+            </div>
+            <div class="mega-col">
+              <h5>Specialised</h5>
+              <ul>
+                <li><a onclick="navigateTo('services', 'specialized')">Hazardous Waste Handling</a></li>
+                <li><a onclick="navigateTo('services', 'specialized')">Industrial Laundry</a></li>
+                <li><a onclick="navigateTo('services', 'specialized')">Technical Support</a></li>
+                <li><a onclick="navigateTo('services', 'specialized')">Equipment Maintenance</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <li class="nav-item" id="nav-sectors">
+          <span>Sectors <span class="caret">▾</span></span>
+          <ul class="dropdown">
+            <li><a onclick="navigateTo('sectors')">Government & Municipalities</a></li>
+            <li><a onclick="navigateTo('sectors')">Construction & Engineering</a></li>
+            <li><a onclick="navigateTo('sectors')">Education Institutions</a></li>
+            <li><a onclick="navigateTo('sectors')">Industrial & Manufacturing</a></li>
+            <li><a onclick="navigateTo('sectors')">Private Sector Developers</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item" id="nav-contact">
+          <a onclick="navigateTo('contact')">Contact</a>
+        </li>
+
+      </ul>
+    </nav>
+
+    <button class="btn btn-gold nav-cta desktop-only" onclick="navigateTo('contact')">Get a Quote</button>
+
+    <button class="hamburger-btn" id="hamburgerBtn" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+
+  </div>
+</header>
+
+<!-- Mobile Drawer -->
+<div class="mobile-drawer" id="mobileDrawer">
+  <div class="drawer-header">
+    <div class="logo-word" style="font-family:'Barlow Condensed',sans-serif;font-size:1.3rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#f5f2ed;">IRON<span style="color:#c9a84c">STONE</span></div>
+    <button class="drawer-close" id="drawerClose">✕</button>
+  </div>
+  <ul>
+    <li class="mobile-nav-item"><a onclick="navigateTo('home');closeMobile()">Home</a></li>
+    <li class="mobile-nav-item">
+      <button onclick="toggleMobileSub(this)">About <span>+</span></button>
+      <ul class="mobile-sub">
+        <li><a onclick="navigateTo('about');closeMobile()">Company Profile</a></li>
+        <li><a onclick="navigateTo('about','mission');closeMobile()">Mission & Vision</a></li>
+        <li><a onclick="navigateTo('about','values');closeMobile()">Our Values</a></li>
+      </ul>
+    </li>
+    <li class="mobile-nav-item">
+      <button onclick="toggleMobileSub(this)">Services <span>+</span></button>
+      <ul class="mobile-sub">
+        <li><a onclick="navigateTo('services','construction');closeMobile()">Construction</a></li>
+        <li><a onclick="navigateTo('services','supply');closeMobile()">Supply of Goods</a></li>
+        <li><a onclick="navigateTo('services','facilities');closeMobile()">Facilities Management</a></li>
+        <li><a onclick="navigateTo('services','specialized');closeMobile()">Specialised Services</a></li>
+      </ul>
+    </li>
+    <li class="mobile-nav-item"><a onclick="navigateTo('sectors');closeMobile()">Sectors</a></li>
+    <li class="mobile-nav-item"><a onclick="navigateTo('contact');closeMobile()">Contact</a></li>
+  </ul>
+  <div style="margin-top:2rem;">
+    <button class="btn btn-gold" style="width:100%;justify-content:center;" onclick="navigateTo('contact');closeMobile()">Get a Quote →</button>
+  </div>
+</div>
+<div class="overlay" id="menuOverlay"></div>
+
+
+<!-- ══════════════════════════════════════════
+     PAGE: HOME
+══════════════════════════════════════════ -->
+<div class="page active" id="page-home">
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-bg">
+      <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1600&q=80" alt="Construction site in South Africa - Ironstone Group" loading="eager">
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">South Africa's Multi-Sector Partner</p>
+      <h1 class="hero-title">Building <strong>Infrastructure,</strong><br>Delivering Excellence</h1>
+      <p class="hero-desc">Ironstone Group (Pty) Ltd is a CSD-registered, multi-disciplinary service provider delivering reliable construction, supply, and facilities management solutions across South Africa.</p>
+      <div class="hero-btns">
+        <button class="btn btn-gold" onclick="navigateTo('services')">Explore Our Services →</button>
+        <button class="btn btn-ghost" onclick="navigateTo('contact')">Get a Quote</button>
+      </div>
+    </div>
+    <div class="hero-scroll" onclick="document.getElementById('stats-section').scrollIntoView({behavior:'smooth'})">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="stats-banner" id="stats-section">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-num">4+</div>
+          <div class="stat-label">Core Service Divisions</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">6</div>
+          <div class="stat-label">Target Market Sectors</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">CSD</div>
+          <div class="stat-label">Registered Supplier</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">100%</div>
+          <div class="stat-label">SARS Tax Compliant</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Strip -->
+  <section>
+    <div class="about-strip">
+      <div class="about-img">
+        <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=900&q=80" alt="Ironstone Group professional team South Africa" loading="lazy">
+        <div class="about-img-overlay"></div>
+      </div>
+      <div class="about-text">
+        <span class="tag">Who We Are</span>
+        <h2 class="section-title">A Trusted Partner for <span>Infrastructure</span> Growth</h2>
+        <div class="gold-line"></div>
+        <p class="section-sub">Ironstone Group (Pty) Ltd is a diversified South African company structured to deliver reliable, cost-effective, and quality-driven solutions across public and private sector projects. We are your multi-disciplinary partner for sustainable development.</p>
+        <div class="about-features">
+          <div class="feat-item"><div class="feat-icon">✓</div><span>Multi-sector capability under one company</span></div>
+          <div class="feat-item"><div class="feat-icon">✓</div><span>CSD-aligned procurement capabilities</span></div>
+          <div class="feat-item"><div class="feat-icon">✓</div><span>Flexible and scalable delivery model</span></div>
+          <div class="feat-item"><div class="feat-icon">✓</div><span>OHS compliant operations</span></div>
+        </div>
+        <div style="margin-top:2rem;">
+          <button class="btn btn-outline" onclick="navigateTo('about')">About Ironstone →</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Preview -->
+  <section class="section" style="background:var(--black);">
+    <div class="container">
+      <div style="text-align:center;margin-bottom:3rem;">
+        <span class="tag">What We Do</span>
+        <h2 class="section-title" style="margin:0 auto;">Our Core <span>Services</span></h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card" onclick="navigateTo('services','construction')">
+          <span class="service-icon">🏗️</span>
+          <h3>Construction & Infrastructure</h3>
+          <p>Residential and non-residential building construction, civil works, roadworks, structural development and site preparation across South Africa.</p>
+          <span class="service-link">Learn More →</span>
+        </div>
+        <div class="service-card" onclick="navigateTo('services','supply')">
+          <span class="service-icon">📦</span>
+          <h3>Supply of Goods & Materials</h3>
+          <p>Wide-ranging supply of construction materials, tools, heavy machinery, PPE, office equipment, IT supplies and industrial consumables.</p>
+          <span class="service-link">Learn More →</span>
+        </div>
+        <div class="service-card" onclick="navigateTo('services','facilities')">
+          <span class="service-icon">🏢</span>
+          <h3>Facilities Management</h3>
+          <p>Building maintenance, professional cleaning, waste management, decontamination, and industrial laundry services for institutions.</p>
+          <span class="service-link">Learn More →</span>
+        </div>
+        <div class="service-card" onclick="navigateTo('services','specialized')">
+          <span class="service-icon">⚙️</span>
+          <h3>Specialised Industrial Services</h3>
+          <p>Hazardous waste handling, equipment cleaning, technical support, and specialised industrial tools and accessories provision.</p>
+          <span class="service-link">Learn More →</span>
+        </div>
+        <div class="service-card" onclick="navigateTo('sectors')">
+          <span class="service-icon">🏛️</span>
+          <h3>Government & Municipalities</h3>
+          <p>Compliant services for public sector procurement, fully registered on the Central Supplier Database (CSD) for tender-ready engagement.</p>
+          <span class="service-link">Learn More →</span>
+        </div>
+        <div class="service-card" onclick="navigateTo('contact')">
+          <span class="service-icon">🤝</span>
+          <h3>Strategic Partnerships</h3>
+          <p>We partner with engineering firms, developers and institutions to deliver end-to-end project support with unmatched professionalism.</p>
+          <span class="service-link">Partner With Us →</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="section why-us">
+    <div class="container">
+      <div class="why-grid">
+        <div>
+          <span class="tag">Why Ironstone</span>
+          <h2 class="section-title">Why Choose <span>Ironstone Group</span></h2>
+          <div class="gold-line"></div>
+          <div class="why-list">
+            <div class="why-item">
+              <div class="why-num">01</div>
+              <div class="why-body">
+                <h4>Multi-Sector Capability</h4>
+                <p>Construction, supply, and facilities management services delivered under one trusted company — reducing vendor complexity for clients.</p>
+              </div>
+            </div>
+            <div class="why-item">
+              <div class="why-num">02</div>
+              <div class="why-body">
+                <h4>Full Compliance & Registration</h4>
+                <p>CSD registered, SARS compliant, and fully aligned with South African procurement regulations for seamless government engagement.</p>
+              </div>
+            </div>
+            <div class="why-item">
+              <div class="why-num">03</div>
+              <div class="why-body">
+                <h4>Scalable Operations</h4>
+                <p>Our flexible, project-based model scales to match small, medium, and large-scale project requirements without compromise on quality.</p>
+              </div>
+            </div>
+            <div class="why-item">
+              <div class="why-num">04</div>
+              <div class="why-body">
+                <h4>OHS & Environmental Compliance</h4>
+                <p>All operations adhere to Occupational Health & Safety regulations with thorough risk assessments and environmental responsibility built in.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="why-visual">
+          <div class="why-visual-img">
+            <img src="https://images.unsplash.com/photo-1590496793929-36417d3117de?w=800&q=80" alt="South African construction professionals at work" loading="lazy">
+          </div>
+          <div class="why-badge">
+            <div class="big">RSA</div>
+            <div class="small">Based & Owned</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Markets -->
+  <section class="section" style="background:var(--black)">
+    <div class="container">
+      <span class="tag">Who We Serve</span>
+      <h2 class="section-title">Our Target <span>Markets</span></h2>
+      <div class="markets-grid">
+        <div class="market-card"><div class="icon">🏛️</div><h4>Government & Municipalities</h4><p>Compliant, CSD-registered supplier servicing public sector procurement needs across departments and local government.</p></div>
+        <div class="market-card"><div class="icon">🔧</div><h4>Construction & Engineering Firms</h4><p>Supply of materials, equipment, and support services to contractors and civil engineering companies nationwide.</p></div>
+        <div class="market-card"><div class="icon">🏗️</div><h4>Private Sector Developers</h4><p>End-to-end construction support, supply and facilities services for private real estate and commercial developers.</p></div>
+        <div class="market-card"><div class="icon">🎓</div><h4>Educational Institutions</h4><p>Maintenance, supply, cleaning and infrastructure support tailored for schools, universities, and training centres.</p></div>
+        <div class="market-card"><div class="icon">🏭</div><h4>Industrial & Manufacturing</h4><p>Specialised industrial tools, waste handling, equipment cleaning, and technical support for manufacturing operations.</p></div>
+        <div class="market-card"><div class="icon">🏢</div><h4>Facilities Management Companies</h4><p>Subcontracted supply and services supporting large facilities management operations with reliability and compliance.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Band -->
+  <section class="cta-band">
+    <div class="cta-band-bg">
+      <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1600&q=80" alt="Infrastructure project South Africa" loading="lazy">
+    </div>
+    <div class="container">
+      <div class="cta-band-content">
+        <h2 class="cta-band-title">Ready to Work with Ironstone Group?</h2>
+        <p class="cta-band-sub">Contact us today for a quotation or partnership discussion. We are tender-ready, compliant, and committed.</p>
+        <div class="cta-band-btns">
+          <button class="btn btn-gold" onclick="navigateTo('contact')">Request a Quote →</button>
+          <button class="btn btn-ghost" onclick="navigateTo('services')">View Our Services</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div><!-- /page-home -->
+
+
+<!-- ══════════════════════════════════════════
+     PAGE: ABOUT
+══════════════════════════════════════════ -->
+<div class="page" id="page-about">
+
+  <div style="padding-top:var(--nav-h);"></div>
+
+  <section class="page-hero">
+    <div class="page-hero-bg">
+      <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1400&q=80" alt="Ironstone Group team - About Us" loading="lazy">
+    </div>
+    <div class="container">
+      <div class="page-hero-content">
+        <div class="breadcrumb">Home / <span>About</span></div>
+        <h1 class="page-title">About Ironstone Group</h1>
+      </div>
+    </div>
+  </section>
+
+  <!-- Company Overview -->
+  <section class="section">
+    <div class="container">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:start;">
+        <div>
+          <span class="tag">Company Overview</span>
+          <h2 class="section-title">South Africa's Multi-<span>Disciplinary</span> Partner</h2>
+          <div class="gold-line"></div>
+          <p style="color:var(--muted);line-height:1.85;font-size:.93rem;margin-bottom:1.2rem;">Ironstone Group (Pty) Ltd is a diversified South African company operating within the construction, supply, maintenance, and industrial services sector. Structured to deliver reliable, cost-effective, and quality-driven solutions, we serve both public and private sector clients.</p>
+          <p style="color:var(--muted);line-height:1.85;font-size:.93rem;margin-bottom:1.2rem;">We position ourselves as a multi-disciplinary service provider capable of supporting infrastructure development, facilities maintenance, supply chain solutions, and technical support services with full compliance and operational efficiency.</p>
+          <p style="color:var(--muted);line-height:1.85;font-size:.93rem;">Ironstone Group is committed to delivering excellence through professionalism, compliance, and a scalable operational model that adapts to the diverse needs of our clients.</p>
+        </div>
+        <div>
+          <div style="background:var(--charcoal);border:1px solid var(--border);padding:2rem;margin-bottom:1.5rem;" id="compliance">
+            <h4 style="font-family:var(--font-cond);font-size:.85rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:1.2rem;">Legal & Registration Details</h4>
+            <table style="width:100%;border-collapse:collapse;">
+              <tr style="border-bottom:1px solid var(--border);">
+                <td style="padding:.7rem 0;font-size:.82rem;color:var(--muted);width:50%;">Registered Name</td>
+                <td style="padding:.7rem 0;font-size:.82rem;color:var(--light);">Ironstone Group (Pty) Ltd</td>
+              </tr>
+              <tr style="border-bottom:1px solid var(--border);">
+                <td style="padding:.7rem 0;font-size:.82rem;color:var(--muted);">Country</td>
+                <td style="padding:.7rem 0;font-size:.82rem;color:var(--light);">South Africa</td>
+              </tr>
+              <tr style="border-bottom:1px solid var(--border);">
+                <td style="padding:.7rem 0;font-size:.82rem;color:var(--muted);">Tax Status</td>
+                <td style="padding:.7rem 0;font-size:.82rem;color:#4caf50;">✓ SARS Compliant</td>
+              </tr>
+              <tr style="border-bottom:1px solid var(--border);">
+                <td style="padding:.7rem 0;font-size:.82rem;color:var(--muted);">CSD Registration</td>
+                <td style="padding:.7rem 0;font-size:.82rem;color:#4caf50;">✓ Registered</td>
+              </tr>
+              <tr>
+                <td style="padding:.7rem 0;font-size:.82rem;color:var(--muted);">BBBEE Status</td>
+                <td style="padding:.7rem 0;font-size:.82rem;color:var(--light);">Available on Request</td>
+              </tr>
+            </table>
+          </div>
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80" alt="Ironstone Group professional" style="height:200px;object-fit:cover;width:100%;" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mission Vision -->
+  <section class="section" style="background:var(--charcoal);" id="mission">
+    <div class="container">
+      <span class="tag">Purpose & Direction</span>
+      <h2 class="section-title">Our Mission & <span>Vision</span></h2>
+      <div class="mv-grid">
+        <div class="mv-card">
+          <h3>🎯 Our Vision</h3>
+          <p>To become a leading multi-sector service provider in South Africa, delivering sustainable infrastructure, reliable supply solutions, and quality services that drive development and transformation.</p>
+        </div>
+        <div class="mv-card">
+          <h3>🚀 Our Mission</h3>
+          <p>To provide high-quality, efficient, and affordable services through skilled personnel, strategic partnerships, and continuous improvement while maintaining full compliance with industry standards and regulations.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Values -->
+  <section class="section" id="values">
+    <div class="container">
+      <span class="tag">What Drives Us</span>
+      <h2 class="section-title">Our Core <span>Values</span></h2>
+      <div class="values-grid">
+        <div class="value-item">
+          <span class="value-icon">⚖️</span>
+          <h4>Integrity</h4>
+          <p>Ethical procurement, honest dealings, and transparent business conduct in every engagement.</p>
+        </div>
+        <div class="value-item">
+          <span class="value-icon">🏆</span>
+          <h4>Excellence</h4>
+          <p>Delivering high-quality outputs across all services, from construction to supply and maintenance.</p>
+        </div>
+        <div class="value-item">
+          <span class="value-icon">🔄</span>
+          <h4>Reliability</h4>
+          <p>Consistent turnaround, dependable supply chains, and meeting commitments every time.</p>
+        </div>
+        <div class="value-item">
+          <span class="value-icon">🌿</span>
+          <h4>Sustainability</h4>
+          <p>Environmentally responsible operations and long-term value creation for communities we serve.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-band">
+    <div class="cta-band-bg">
+      <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1400&q=80" alt="Construction" loading="lazy">
+    </div>
+    <div class="container">
+      <div class="cta-band-content">
+        <h2 class="cta-band-title">Partner with a Compliant, Capable Team</h2>
+        <p class="cta-band-sub">Ironstone Group is ready for your next project. Let's build something lasting together.</p>
+        <div class="cta-band-btns">
+          <button class="btn btn-gold" onclick="navigateTo('contact')">Contact Us Today →</button>
+          <button class="btn btn-ghost" onclick="navigateTo('services')">Our Services</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div><!-- /page-about -->
+
+
+<!-- ══════════════════════════════════════════
+     PAGE: SERVICES
+══════════════════════════════════════════ -->
+<div class="page" id="page-services">
+
+  <div style="padding-top:var(--nav-h);"></div>
+
+  <section class="page-hero">
+    <div class="page-hero-bg">
+      <img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=1400&q=80" alt="Ironstone Group services" loading="lazy">
+    </div>
+    <div class="container">
+      <div class="page-hero-content">
+        <div class="breadcrumb">Home / <span>Services</span></div>
+        <h1 class="page-title">Our Services</h1>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+
+    <!-- Construction -->
+    <div class="service-detail" id="construction">
+      <div class="service-img">
+        <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80" alt="Construction and infrastructure services South Africa" loading="lazy">
+      </div>
+      <div class="service-info">
+        <div class="service-num">01</div>
+        <span class="tag">Core Service</span>
+        <h2>Construction & <span>Infrastructure</span> Services</h2>
+        <p>We deliver civil and building construction services tailored for government and private sector projects of all scales. Our teams are equipped for site development, structural works, roadworks, and full building construction from foundation to finish.</p>
+        <p>With an OHS-compliant workforce and access to machinery, equipment networks, and skilled labour, Ironstone Group handles your infrastructure needs from start to completion.</p>
+        <ul class="service-list">
+          <li>Residential building construction</li>
+          <li>Non-residential construction</li>
+          <li>Heavy construction & infrastructure</li>
+          <li>Roadworks & site preparation</li>
+          <li>Landscaping services</li>
+          <li>Structural works</li>
+          <li>Building repair & maintenance</li>
+          <li>Site development</li>
+        </ul>
+        <div style="margin-top:2rem;">
+          <button class="btn btn-gold" onclick="navigateTo('contact')">Request a Quote →</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Supply -->
+    <div class="service-detail reverse" id="supply">
+      <div class="service-info">
+        <div class="service-num">02</div>
+        <span class="tag">Core Service</span>
+        <h2>Supply of Goods & <span>Materials</span></h2>
+        <p>Ironstone Group supplies a comprehensive range of construction, industrial, and office-related commodities. Our CSD-aligned supply capabilities enable seamless procurement for government departments and private clients.</p>
+        <p>From raw building materials to IT equipment, we manage sourcing, procurement, and delivery with reliability and competitive pricing.</p>
+        <ul class="service-list">
+          <li>Hand tools & construction equipment</li>
+          <li>Heavy machinery & hydraulic systems</li>
+          <li>Cement, concrete, steel components</li>
+          <li>Plumbing & electrical materials</li>
+          <li>Doors, windows, glass & insulation</li>
+          <li>Office equipment & stationery</li>
+          <li>IT equipment & accessories</li>
+          <li>Furniture (commercial & institutional)</li>
+          <li>PPE & safety gear</li>
+          <li>Interior & exterior finishes</li>
+        </ul>
+        <div style="margin-top:2rem;">
+          <button class="btn btn-gold" onclick="navigateTo('contact')">Request a Quote →</button>
+        </div>
+      </div>
+      <div class="service-img">
+        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" alt="Supply of construction goods and materials" loading="lazy">
+      </div>
+    </div>
+
+    <!-- Facilities -->
+    <div class="service-detail" id="facilities">
+      <div class="service-img">
+        <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&q=80" alt="Facilities management services" loading="lazy">
+      </div>
+      <div class="service-info">
+        <div class="service-num">03</div>
+        <span class="tag">Core Service</span>
+        <h2>Facilities Management & <span>Maintenance</span></h2>
+        <p>Keeping your facilities running at peak performance is what we do. Ironstone Group provides professional building maintenance, cleaning, waste management, and decontamination services for institutional and commercial environments.</p>
+        <p>Our facilities teams are trained, equipped, and supervised to meet the highest cleanliness and safety standards for government buildings, schools, offices, and industrial spaces.</p>
+        <ul class="service-list">
+          <li>Building maintenance & repair</li>
+          <li>Cleaning & janitorial services</li>
+          <li>Waste management & disposal</li>
+          <li>Decontamination & environmental cleaning</li>
+          <li>Industrial laundry services</li>
+          <li>Support services provision</li>
+        </ul>
+        <div style="margin-top:2rem;">
+          <button class="btn btn-gold" onclick="navigateTo('contact')">Request a Quote →</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Specialised -->
+    <div class="service-detail reverse" id="specialized" style="border-bottom:none;">
+      <div class="service-info">
+        <div class="service-num">04</div>
+        <span class="tag">Core Service</span>
+        <h2>Specialised <span>Industrial Services</span></h2>
+        <p>Our specialised services division handles high-complexity tasks including hazardous waste management, industrial equipment cleaning, technical support, and the provision of specialised tools and accessories for industrial operations.</p>
+        <p>Ironstone Group adheres to all regulatory requirements for hazardous materials handling, ensuring safe, compliant operations that protect both personnel and the environment.</p>
+        <ul class="service-list">
+          <li>Hazardous waste handling</li>
+          <li>Cleanup support operations</li>
+          <li>Construction technical support</li>
+          <li>Equipment cleaning & maintenance</li>
+          <li>Specialised industrial tools supply</li>
+          <li>Industrial accessories provision</li>
+        </ul>
+        <div style="margin-top:2rem;">
+          <button class="btn btn-gold" onclick="navigateTo('contact')">Request a Quote →</button>
+        </div>
+      </div>
+      <div class="service-img">
+        <img src="https://images.unsplash.com/photo-1565008447742-97f6f38c985c?w=800&q=80" alt="Specialised industrial services" loading="lazy">
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Commodities Band -->
+  <section class="section" style="background:var(--charcoal);">
+    <div class="container">
+      <span class="tag">CSD Capability Summary</span>
+      <h2 class="section-title">Our Supplier <span>Commodities</span></h2>
+      <p class="section-sub" style="margin-bottom:3rem;">Ironstone Group is registered with a broad scope of supply capabilities aligned to CSD commodity classifications, enabling us to participate in diverse procurement opportunities.</p>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;">
+        <div style="background:var(--steel);border:1px solid var(--border);padding:1.2rem 1.5rem;font-size:.85rem;color:var(--muted);border-left:3px solid var(--gold);">🔨 Construction tools, machinery & equipment</div>
+        <div style="background:var(--steel);border:1px solid var(--border);padding:1.2rem 1.5rem;font-size:.85rem;color:var(--muted);border-left:3px solid var(--gold);">🧱 Civil engineering & structural materials</div>
+        <div style="background:var(--steel);border:1px solid var(--border);padding:1.2rem 1.5rem;font-size:.85rem;color:var(--muted);border-left:3px solid var(--gold);">🏗️ Building construction & maintenance services</div>
+        <div style="background:var(--steel);border:1px solid var(--border);padding:1.2rem 1.5rem;font-size:.85rem;color:var(--muted);border-left:3px solid var(--gold);">🔌 Plumbing, electrical & finishing materials</div>
+        <div style="background:var(--steel);border:1px solid var(--border);padding:1.2rem 1.5rem;font-size:.85rem;color:var(--muted);border-left:3px solid var(--gold);">💻 Office supplies, equipment & software</div>
+        <div style="background:var(--steel);border:1px solid var(--border);padding:1.2rem 1.5rem;font-size:.85rem;color:var(--muted);border-left:3px solid var(--gold);">🧹 Cleaning, janitorial & waste management</div>
+        <div style="background:var(--steel);border:1px solid var(--border);padding:1.2rem 1.5rem;font-size:.85rem;color:var(--muted);border-left:3px solid var(--gold);">🪑 Furniture, fixtures & institutional equipment</div>
+        <div style="background:var(--steel);border:1px solid var(--border);padding:1.2rem 1.5rem;font-size:.85rem;color:var(--muted);border-left:3px solid var(--gold);">🦺 PPE & safety materials</div>
+        <div style="background:var(--steel);border:1px solid var(--border);padding:1.2rem 1.5rem;font-size:.85rem;color:var(--muted);border-left:3px solid var(--gold);">🌍 Environmental & hazardous waste services</div>
+      </div>
+    </div>
+  </section>
+
+</div><!-- /page-services -->
+
+
+<!-- ══════════════════════════════════════════
+     PAGE: SECTORS
+══════════════════════════════════════════ -->
+<div class="page" id="page-sectors">
+
+  <div style="padding-top:var(--nav-h);"></div>
+
+  <section class="page-hero">
+    <div class="page-hero-bg">
+      <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1400&q=80" alt="Sectors served by Ironstone Group" loading="lazy">
+    </div>
+    <div class="container">
+      <div class="page-hero-content">
+        <div class="breadcrumb">Home / <span>Sectors</span></div>
+        <h1 class="page-title">Sectors We Serve</h1>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <span class="tag">Target Markets</span>
+      <h2 class="section-title">Industries We <span>Work With</span></h2>
+      <p class="section-sub" style="margin-bottom:4rem;">Our services and supply capabilities span a diverse range of sectors. Ironstone Group's multi-disciplinary model means we can deliver consistent value wherever we operate.</p>
+
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:2px;background:var(--border);border:1px solid var(--border);">
+
+        <div class="sector-card-inner" style="background:var(--charcoal);padding:0;display:grid;grid-template-columns:280px 1fr;min-height:260px;">
+          <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=400&q=80" alt="Government and municipalities" loading="lazy" style="object-fit:cover;height:100%;">
+          <div style="padding:2rem;">
+            <span class="tag">Sector 01</span>
+            <h3 style="font-family:var(--font-cond);font-size:1.1rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--white);margin-bottom:.8rem;">Government & Municipalities</h3>
+            <p style="font-size:.86rem;color:var(--muted);line-height:1.75;">As a CSD-registered and SARS-compliant supplier, Ironstone Group participates in public sector tenders and procurement processes with full regulatory compliance. We supply goods and services to government departments and municipalities across South Africa.</p>
+          </div>
+        </div>
+
+        <div class="sector-card-inner" style="background:var(--charcoal);padding:0;display:grid;grid-template-columns:280px 1fr;min-height:260px;">
+          <img src="https://images.unsplash.com/photo-1590496793929-36417d3117de?w=400&q=80" alt="Construction firms" loading="lazy" style="object-fit:cover;height:100%;">
+          <div style="padding:2rem;">
+            <span class="tag">Sector 02</span>
+            <h3 style="font-family:var(--font-cond);font-size:1.1rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--white);margin-bottom:.8rem;">Construction & Engineering Firms</h3>
+            <p style="font-size:.86rem;color:var(--muted);line-height:1.75;">We support construction and civil engineering companies with timely supply of materials, equipment, and subcontracted services, helping them meet project deadlines and specification requirements with reliable delivery.</p>
+          </div>
+        </div>
+
+        <div class="sector-card-inner" style="background:var(--charcoal);padding:0;display:grid;grid-template-columns:280px 1fr;min-height:260px;">
+          <img src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?w=400&q=80" alt="Private developers" loading="lazy" style="object-fit:cover;height:100%;">
+          <div style="padding:2rem;">
+            <span class="tag">Sector 03</span>
+            <h3 style="font-family:var(--font-cond);font-size:1.1rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--white);margin-bottom:.8rem;">Private Sector Developers</h3>
+            <p style="font-size:.86rem;color:var(--muted);line-height:1.75;">From residential estates to commercial buildings, Ironstone Group provides full construction support, supply chain solutions, and ongoing facilities management to private sector property developers.</p>
+          </div>
+        </div>
+
+        <div class="sector-card-inner" style="background:var(--charcoal);padding:0;display:grid;grid-template-columns:280px 1fr;min-height:260px;">
+          <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=400&q=80" alt="Educational institutions" loading="lazy" style="object-fit:cover;height:100%;">
+          <div style="padding:2rem;">
+            <span class="tag">Sector 04</span>
+            <h3 style="font-family:var(--font-cond);font-size:1.1rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--white);margin-bottom:.8rem;">Educational Institutions</h3>
+            <p style="font-size:.86rem;color:var(--muted);line-height:1.75;">Schools, universities, and training centres benefit from our maintenance, cleaning, supply, and construction services. We understand the operational needs of academic environments and deliver with minimal disruption.</p>
+          </div>
+        </div>
+
+        <div class="sector-card-inner" style="background:var(--charcoal);padding:0;display:grid;grid-template-columns:280px 1fr;min-height:260px;">
+          <img src="https://images.unsplash.com/photo-1565008447742-97f6f38c985c?w=400&q=80" alt="Industrial and manufacturing" loading="lazy" style="object-fit:cover;height:100%;">
+          <div style="padding:2rem;">
+            <span class="tag">Sector 05</span>
+            <h3 style="font-family:var(--font-cond);font-size:1.1rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--white);margin-bottom:.8rem;">Industrial & Manufacturing</h3>
+            <p style="font-size:.86rem;color:var(--muted);line-height:1.75;">Industrial plants require specialised tools, equipment, and services. We deliver hazardous waste handling, equipment cleaning, industrial laundry, and technical support tailored for manufacturing and industrial operations.</p>
+          </div>
+        </div>
+
+        <div class="sector-card-inner" style="background:var(--charcoal);padding:0;display:grid;grid-template-columns:280px 1fr;min-height:260px;">
+          <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=400&q=80" alt="Facilities management companies" loading="lazy" style="object-fit:cover;height:100%;">
+          <div style="padding:2rem;">
+            <span class="tag">Sector 06</span>
+            <h3 style="font-family:var(--font-cond);font-size:1.1rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--white);margin-bottom:.8rem;">Facilities Management Companies</h3>
+            <p style="font-size:.86rem;color:var(--muted);line-height:1.75;">As a subcontractor and supply partner, Ironstone Group supports large facilities management operations with dependable service delivery, cost-effective supply, and responsive team deployment when you need it.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="cta-band-bg">
+      <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1400&q=80" alt="Background" loading="lazy">
+    </div>
+    <div class="container">
+      <div class="cta-band-content">
+        <h2 class="cta-band-title">Is Your Sector on This List?</h2>
+        <p class="cta-band-sub">Reach out to discuss your specific requirements. We adapt to meet your operational needs.</p>
+        <div class="cta-band-btns">
+          <button class="btn btn-gold" onclick="navigateTo('contact')">Get in Touch →</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div><!-- /page-sectors -->
+
+
+<!-- ══════════════════════════════════════════
+     PAGE: CONTACT
+══════════════════════════════════════════ -->
+<div class="page" id="page-contact">
+
+  <div style="padding-top:var(--nav-h);"></div>
+
+  <section class="page-hero">
+    <div class="page-hero-bg">
+      <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1400&q=80" alt="Contact Ironstone Group" loading="lazy">
+    </div>
+    <div class="container">
+      <div class="page-hero-content">
+        <div class="breadcrumb">Home / <span>Contact</span></div>
+        <h1 class="page-title">Get in Touch</h1>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="contact-grid">
+
+      <div class="contact-info">
+        <h2>Let's Start a <span style="color:var(--gold);font-family:var(--font-display);font-style:italic;">Conversation</span></h2>
+        <p>Whether you have a project in mind, require a quotation, or want to discuss how Ironstone Group can support your operations — we'd love to hear from you.</p>
+
+        <div class="contact-detail">
+          <div class="cd-icon">📍</div>
+          <div class="cd-body">
+            <label>Physical Address</label>
+            <span>South Africa<br><span style="color:var(--muted);font-size:.8rem;">Address available on request</span></span>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <div class="cd-icon">📧</div>
+          <div class="cd-body">
+            <label>Email Address</label>
+            <span>info@ironstonegroup.co.za</span>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <div class="cd-icon">📞</div>
+          <div class="cd-body">
+            <label>Phone Number</label>
+            <span>Available on request</span>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <div class="cd-icon">🕐</div>
+          <div class="cd-body">
+            <label>Business Hours</label>
+            <span>Monday – Friday: 08:00 – 17:00<br><span style="color:var(--muted);font-size:.8rem;">Closed weekends & public holidays</span></span>
+          </div>
+        </div>
+
+        <div style="margin-top:2rem;padding:1.5rem;background:rgba(201,168,76,0.06);border:1px solid rgba(201,168,76,0.2);">
+          <h4 style="font-family:var(--font-cond);font-size:.8rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:.8rem;">Registration Details</h4>
+          <p style="font-size:.83rem;color:var(--muted);line-height:1.7;">CSD Registered · SARS Compliant · CIPC Registered<br>Available for government tenders and public procurement</p>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <h3>Send Us a <span style="color:var(--gold);font-style:italic;">Message</span></h3>
+        <div class="form-row">
+          <div class="form-group">
+            <label>First Name *</label>
+            <input type="text" placeholder="e.g. Sipho">
+          </div>
+          <div class="form-group">
+            <label>Last Name *</label>
+            <input type="text" placeholder="e.g. Dlamini">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Email Address *</label>
+            <input type="email" placeholder="your@email.com">
+          </div>
+          <div class="form-group">
+            <label>Phone Number</label>
+            <input type="tel" placeholder="+27 XX XXX XXXX">
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Organisation / Company</label>
+          <input type="text" placeholder="Your company or department">
+        </div>
+        <div class="form-group">
+          <label>Service Required *</label>
+          <select>
+            <option value="">— Select a service —</option>
+            <option>Construction & Infrastructure</option>
+            <option>Supply of Goods & Materials</option>
+            <option>Facilities Management</option>
+            <option>Specialised Industrial Services</option>
+            <option>General Enquiry</option>
+            <option>Partnership / Subcontracting</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Message / Project Details *</label>
+          <textarea placeholder="Briefly describe your project, requirements or enquiry..."></textarea>
+        </div>
+        <button class="btn btn-gold" style="width:100%;justify-content:center;" onclick="handleFormSubmit()">Send Message →</button>
+        <p style="font-size:.75rem;color:var(--muted);margin-top:1rem;text-align:center;">We typically respond within 1–2 business days.</p>
+      </div>
+
+    </div>
+  </div>
+
+</div><!-- /page-contact -->
+
+
+<!-- ══════════════════════════════════════════
+     FOOTER
+══════════════════════════════════════════ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-main">
+
+      <div class="footer-brand">
+        <div class="logo-word">IRON<span>STONE</span></div>
+        <div class="logo-tagline">Group (Pty) Ltd</div>
+        <p>A diversified South African multi-disciplinary service provider delivering construction, supply, maintenance, and industrial services across public and private sectors.</p>
+        <div style="margin-top:1.5rem;display:flex;gap:.8rem;">
+          <a href="#" style="width:36px;height:36px;background:var(--steel);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:.9rem;transition:border-color .25s;" onmouseover="this.style.borderColor='var(--gold)'" onmouseout="this.style.borderColor='var(--border)'">in</a>
+          <a href="#" style="width:36px;height:36px;background:var(--steel);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:.9rem;transition:border-color .25s;" onmouseover="this.style.borderColor='var(--gold)'" onmouseout="this.style.borderColor='var(--border)'">f</a>
+          <a href="#" style="width:36px;height:36px;background:var(--steel);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:.9rem;transition:border-color .25s;" onmouseover="this.style.borderColor='var(--gold)'" onmouseout="this.style.borderColor='var(--border)'">✉</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a onclick="navigateTo('about')">Company Profile</a></li>
+          <li><a onclick="navigateTo('about','mission')">Mission & Vision</a></li>
+          <li><a onclick="navigateTo('about','values')">Our Values</a></li>
+          <li><a onclick="navigateTo('about','compliance')">Compliance</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Services</h5>
+        <ul>
+          <li><a onclick="navigateTo('services','construction')">Construction</a></li>
+          <li><a onclick="navigateTo('services','supply')">Supply of Goods</a></li>
+          <li><a onclick="navigateTo('services','facilities')">Facilities Mgmt</a></li>
+          <li><a onclick="navigateTo('services','specialized')">Specialised Services</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <ul>
+          <li><a onclick="navigateTo('contact')">Get a Quote</a></li>
+          <li><a onclick="navigateTo('contact')">General Enquiry</a></li>
+          <li><a onclick="navigateTo('sectors')">Sectors We Serve</a></li>
+          <li><a href="mailto:info@ironstonegroup.co.za">Email Us</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 <span>Ironstone Group (Pty) Ltd</span>. All rights reserved. South Africa.</p>
+      <p style="font-size:.75rem;">CSD Registered · SARS Compliant · CIPC Registered</p>
+    </div>
+  </div>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
